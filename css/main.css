@@ -29,6 +29,9 @@ button:hover{
     -o-background-size: cover;
     background-size: cover;
     background-repeat: no-repeat;
+    height: 1000px;
+    padding: 300px;
+    margin-top: -300px;
 }
 
 /*plot*/
@@ -38,7 +41,10 @@ button:hover{
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
-    background-repeat: no-repeat; 
+    background-repeat: no-repeat;
+    height: 1000px;
+    padding: 300px;
+    margin-top: -300px; 
 }
 
 /*ganondorf*/
@@ -49,6 +55,9 @@ button:hover{
     -o-background-size: cover;
     background-size: cover;
     background-repeat: no-repeat; 
+    height: 1000px;
+    padding: 300px;
+    margin-top: -300px;
 }
 
 /*fight*/
@@ -59,6 +68,9 @@ button:hover{
     -o-background-size: cover;
     background-size: cover;
     background-repeat: no-repeat; 
+    height: 1000px;
+    padding: 300px;
+    margin-top: -300px;
 }
 
 /*lose*/
@@ -69,6 +81,9 @@ button:hover{
     -o-background-size: cover;
     background-size: cover;
     background-repeat: no-repeat; 
+    height: 1000px;
+    padding: 300px;
+    margin-top: -300px;
 }
 
 /*win*/
@@ -79,4 +94,7 @@ button:hover{
     -o-background-size: cover;
     background-size: cover;
     background-repeat: no-repeat; 
+    height: 1000px;
+    padding: 300px;
+    margin-top: -300px;
 }

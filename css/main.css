@@ -1,0 +1,82 @@
+body {
+    text-align: center;
+    padding-top: 300px;
+    font-size: 30px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: black;
+    font-weight: bold;
+    background-color: black;
+}
+
+button {
+    border-radius: 5px;
+    background-color: transparent;
+    border: 3px solid white;
+    color: black;
+}
+
+button:hover{
+    text-decoration: none;
+    border: 5px solid black;
+    opacity: 0.5;
+}
+
+/*home*/
+#home {
+    background: url('../img/main.jpg'); 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+/*plot*/
+#plot {
+    background: url('../img/plot.jpg'); 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    background-repeat: no-repeat; 
+}
+
+/*ganondorf*/
+#ganondorf {
+    background: url('../img/Ganondorf.jpg'); 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    background-repeat: no-repeat; 
+}
+
+/*fight*/
+#fight {
+    background: url('../img/fight.jpg');
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    background-repeat: no-repeat; 
+}
+
+/*lose*/
+#lose {
+    background: url('../img/end.jpeg'); 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    background-repeat: no-repeat; 
+}
+
+/*win*/
+#win {
+    background: url('../img/end.jpeg'); 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    background-repeat: no-repeat; 
+}

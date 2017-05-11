@@ -1,100 +1,162 @@
 body {
-    text-align: center;
     padding-top: 300px;
     font-size: 30px;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    color: black;
     font-weight: bold;
-    background-color: black;
+    text-align: center;
+    color: white;
+    text-shadow: 2px 2px black;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+}
+
+a:hover {
+    color: white;
+    text-decoration: none;
 }
 
 button {
     border-radius: 5px;
-    background-color: transparent;
     border: 3px solid white;
-    color: black;
+    background-color: rgba(76, 175, 80, 0.3);
+    border: 3px solid white;    
+    color: white;
+    text-shadow: 1px 1px black;
 }
 
 button:hover{
-    text-decoration: none;
+    color: black;
     border: 5px solid black;
-    opacity: 0.5;
+    background-color: rgba(79, 185, 246, 0.3);
+}
+
+.container {
+    padding-top: 50px;    
 }
 
 /*home*/
-#home {
+.view1 {
     background: url('../img/main.jpg'); 
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
     background-repeat: no-repeat;
-    height: 1000px;
-    padding: 300px;
-    margin-top: -300px;
 }
 
 /*plot*/
-#plot {
+.view2 {
     background: url('../img/plot.jpg'); 
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
-    background-repeat: no-repeat;
-    height: 1000px;
-    padding: 300px;
-    margin-top: -300px; 
+    background-repeat: no-repeat; 
 }
 
 /*ganondorf*/
-#ganondorf {
+.view3 {
     background: url('../img/Ganondorf.jpg'); 
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
     background-repeat: no-repeat; 
-    height: 1000px;
-    padding: 300px;
-    margin-top: -300px;
 }
 
 /*fight*/
-#fight {
+.view4 {
     background: url('../img/fight.jpg');
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
     background-repeat: no-repeat; 
-    height: 1000px;
-    padding: 300px;
-    margin-top: -300px;
+}
+#fight h1{
+    margin-top: -500px;
+    font-size: 10px;
+}
+#fight #pics{
+    margin-top: 100ox;
+}
+#fight img {
+    margin-top: 300px;
+}
+#fight #ganonatt {
+    height: 400px;
+    margin-left: 200px;
+}
+#fight #linkatt {
+    height: 150px;
+    margin-top: 450px;
+    margin-right: 200px;
+}
+#fight #att {
+    margin-top: 50px;
+}
+
+
+/*win*/
+.view6 {
+    background: url('../img/end.jpeg'); 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    background-repeat: no-repeat; 
+}
+#win h1 {
+    font-size: 50px;
+    margin-bottom: 100px;
+    margin-top: -200px;
+}
+#win #sing {
+    height: 250px;
+}
+#win #rescued {
+    height: 250px;
 }
 
 /*lose*/
-#lose {
+.view5 {
     background: url('../img/end.jpeg'); 
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
-    background-repeat: no-repeat; 
-    height: 1000px;
-    padding: 300px;
+    background-repeat: no-repeat;
+}
+#lose {
     margin-top: -300px;
 }
+#lose .container{
+    margin-top: 100px;
+}
+#lose img{
+    height: 300px;
+    padding-top: 100px;
+}
 
-/*win*/
-#win {
+/*lose1*/
+.view7 {
     background: url('../img/end.jpeg'); 
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
     background-repeat: no-repeat; 
-    height: 1000px;
-    padding: 300px;
+}
+#lose1 {
     margin-top: -300px;
+}
+#lose1 .container{
+    margin-top: 100px;
+}
+#lose1 img{
+    height: 260px;
+    margin-top: 120px;
 }

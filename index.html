@@ -9,19 +9,17 @@
 
     </head>
 
-    <body ng-app='myGame'>
+    <body ng-app='myGame' ng-controller="backController1" ng-class="bodyClass">
         
        <div ng-view></div>
         
         <!-- Modules -->
         <script type="text/javascript" src="js/app.js"></script>
+        <script type="text/javascript" src="js/linkfight.js"></script>
         
         <!-- Controllers -->
-        <script type="text/javascript" src="js/controllers/MainController.js"></script>
         <script type="text/javascript" src="js/controllers/backController.js"></script>
 
-        <!-- Services -->
-        <script type="text/javascript" src="js/services/background.js"></script>
-   
+
     </body>
 </html>
